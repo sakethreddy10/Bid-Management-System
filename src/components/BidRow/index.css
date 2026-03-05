@@ -1,0 +1,81 @@
+.bid-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bid-row:hover {
+  background-color: #f8f9fa;
+}
+
+.bid-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.bid-row td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.bid-number-cell,
+.date-time-cell,
+.city-cell,
+.vehicle-cell,
+.staff-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bid-number {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.created-by {
+  color: #666;
+  font-size: 13px;
+}
+
+.date {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.time {
+  color: #666;
+  font-size: 13px;
+}
+
+.from-city {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.to-city {
+  color: #666;
+  font-size: 13px;
+}
+
+.vehicle-type {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.body-type,
+.vehicle-count {
+  color: #666;
+  font-size: 13px;
+}
+
+.staff-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.staff-id {
+  color: #666;
+  font-size: 13px;
+}

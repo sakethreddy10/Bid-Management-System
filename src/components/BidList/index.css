@@ -1,0 +1,165 @@
+.bid-list {
+  padding: 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.bid-list-header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 0;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 0;
+  font-weight: 600;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border: 1px solid #dee2e6;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 13px;
+  color: #495057;
+}
+
+.filter-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.filter-btn:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.controls-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-section {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  max-width: 350px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.search-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.sort-section {
+  min-width: 140px;
+}
+
+.sort-dropdown {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  font-size: 13px;
+  background-color: white;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+.bid-table-container {
+  background-color: white;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.bid-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1200px;
+}
+
+.bid-table th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 13px;
+  border-right: 1px solid #34495e;
+}
+
+.bid-table th:first-child {
+  width: 60px;
+}
+
+.bid-table th:nth-child(2) {
+  width: 180px;
+}
+
+.bid-table th:nth-child(3) {
+  width: 140px;
+}
+
+.bid-table th:nth-child(4) {
+  width: 120px;
+}
+
+.bid-table th:nth-child(5) {
+  width: 160px;
+}
+
+.bid-table th:nth-child(6) {
+  width: 200px;
+}
+
+.bid-table th:nth-child(7) {
+  width: 140px;
+}
+
+.bid-table th:nth-child(8) {
+  width: 160px;
+}
